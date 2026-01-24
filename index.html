@@ -6,18 +6,31 @@
 <title>MCBE Tiers</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gframework.css">
+<style>
+.material-button {
+    border-radius: 50px;
+    color: white; 
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-transform: none;
+}
+</style>
 </head>
 <body>
 
 <h1>Minecraft Bedrock ТОП ИГРОКОВ</h1>
 
 <div class="modes">
-    <button data-mode="OVERALL"><img src="icons/overall.svg">Overall</button>
-    <button data-mode="UHC"><img src="icons/uhc.svg">UHC</button>
-    <button data-mode="NETHEROP"><img src="icons/netherop.svg">NetherOP</button>
-    <button data-mode="SWORD"><img src="icons/sword.svg">Sword</button>
-    <button data-mode="MACE"><img src="icons/mace.svg">Mace</button>
-    <button data-mode="SMP"><img src="icons/smp.svg">SMP</button>
+    <button class="material-button" data-mode="OVERALL"><img src="icons/overall.svg">Overall</button>
+    <button class="material-button" data-mode="UHC"><img src="icons/uhc.svg">UHC</button>
+    <button class="material-button" data-mode="NETHEROP"><img src="icons/netherop.svg">NetherOP</button>
+    <button class="material-button" data-mode="SWORD"><img src="icons/sword.svg">Sword</button>
+    <button class="material-button" data-mode="MACE"><img src="icons/mace.svg">Mace</button>
+    <button class="material-button" data-mode="SMP"><img src="icons/smp.svg">SMP</button>
 </div>
 
 <div class="wrapper">
@@ -27,11 +40,12 @@
 <footer class="projects-footer">
     <p>Проекты, которые поддерживаются в оценке тиров на этом сайте:</p>
     <ul>
-        <li><a href="https://t.me/fearevents" target="_blank">FearEvents</a></li>
+        <li><a href="https://t.me/citadelbedrock" target="_blank">CitadelEvent</a></li>
+        <li><a href="https://t.me/germankb2" target="_blank">GermanEvents</a></li>
     </ul>
 </footer>
 
 <script src="script.js"></script>
+<script src="gframework.js"></script>
 </body>
-
 </html>
