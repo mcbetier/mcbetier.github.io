@@ -1,6 +1,6 @@
 const data = {
     OVERALL: [
-        { place: 1, nick: 'zerg2113', tiers: [{type:'uhc',label:'empty'},{type:'sword',label:'HT3'}], score: 3, avatar: 'places/overall_1.png' },
+        { place: 1, nick: 'zerg2113', tiers: [{type:'uhc',label:'LT3'},{type:'sword',label:'HT3'}], score: 4, avatar: 'places/overall_1.png' },
         { place: 2, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'},{type:'sword',label:'empty'}], score: 0, avatar: 'places/overall_2.png' },
         { place: 3, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'},{type:'sword',label:'empty'}], score: 0, avatar: 'places/overall_3.png' },
     ],
@@ -15,7 +15,7 @@ const data = {
         { place: 3, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/overall_3.png' },
     ],
     SWORD: [
-        { place: 1, nick: 'zerg2113', tiers: [{type:'sword',label:'HT3'}], score: 3, avatar: 'places/sword_1.png' },
+        { place: 1, nick: 'zerg2113', tiers: [{type:'sword',label:'HT3'}], score: 1, avatar: 'places/sword_1.png' },
         { place: 2, nick: 'Пусто', tiers: [{type:'sword',label:'empty'}], score: 0, avatar: 'places/sword_2.png' },
         { place: 3, nick: 'Пусто', tiers: [{type:'sword',label:'empty'}], score: 0, avatar: 'places/sword_3.png' },
     ],
