@@ -15,8 +15,8 @@ const data = {
         { place: 3, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/overall_3.png' },
     ],
     SWORD: [
-        { place: 1, nick: 'zerg2113', tiers: [{type:'sword',label:'HT3'}], score: 1, avatar: 'places/sword_1.png' },
-        { place: 2, nick: 'Sh1dwME', tiers: [{type:'sword',label:'empty'}], score: 0, avatar: 'places/sword_2.png' },
+        { place: 1, nick: 'zerg2113', tiers: [{type:'sword',label:'HT3'}], score: 2, avatar: 'places/sword_1.png' },
+        { place: 2, nick: 'Sh1dwME', tiers: [{type:'sword',label:'HT4'}], score: 1, avatar: 'places/sword_2.png' },
         { place: 3, nick: 'Пусто', tiers: [{type:'sword',label:'empty'}], score: 0, avatar: 'places/sword_3.png' },
     ],
     MACE: [
@@ -93,5 +93,6 @@ function createAvatar(src){
     return img;
 
 }
+
 
 
