@@ -5,14 +5,14 @@ const data = {
         { place: 3, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'},{type:'sword',label:'empty'}], score: 0, avatar: 'places/overall_3.png' },
     ],
     UHC: [
-        { place: 1, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'}], score: 0, avatar: 'places/uhc_1.png' },
-        { place: 2, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'}], score: 0, avatar: 'places/uhc_2.png' },
+        { place: 1, nick: 'zerg2113', tiers: [{type:'uhc',label:'LT3'}], score: 2, avatar: 'places/uhc_1.png' },
+        { place: 2, nick: 'Sh1dwME', tiers: [{type:'uhc',label:'LT4'}], score: 1, avatar: 'places/uhc_2.png' },
         { place: 3, nick: 'Пусто', tiers: [{type:'uhc',label:'empty'}], score: 0, avatar: 'places/uhc_3.png' },
     ],
     NETHEROP: [
-        { place: 1, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/overall_1.png' },
-        { place: 2, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/overall_2.png' },
-        { place: 3, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/overall_3.png' },
+        { place: 1, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/netherop_1.png' },
+        { place: 2, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/netherop_2.png' },
+        { place: 3, nick: 'Пусто', tiers: [{type:'netherop',label:'empty'}], score: 0, avatar: 'places/netherop_3.png' },
     ],
     SWORD: [
         { place: 1, nick: 'zerg2113', tiers: [{type:'sword',label:'HT3'}], score: 2, avatar: 'places/sword_1.png' },
@@ -93,6 +93,7 @@ function createAvatar(src){
     return img;
 
 }
+
 
 
 
